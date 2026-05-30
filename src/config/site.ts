@@ -1,174 +1,188 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Tailwind Config Generator",
+  title: "Tailwind CSS Config Generator — Visual tailwind.config.js Builder",
+  description:
+    "Generate a complete tailwind.config.js visually. Customize colors, fonts, spacing, breakpoints, and plugins — then copy your ready-to-use Tailwind CSS config in seconds.",
+  url: "https://tailwind-config-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Palette",
+  brandAccentColor: "#6366f1",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "tailwind config generator",
+    "tailwind.config.js generator",
+    "tailwind css configuration",
+    "tailwind config builder",
+    "tailwindcss config tool",
+    "tailwind custom colors",
+    "tailwind breakpoints generator",
+    "tailwind theme generator",
+    "tailwind css customizer",
+    "next.js tailwind config",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
-  socialProfiles: [
-    "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
-  ],
+  socialProfiles: ["https://twitter.com/jagodana"],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github:
+      "https://github.com/Jagodana-Studio-Private-Limited/tailwind-config-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "A free visual Tailwind CSS config generator. Customize your Tailwind theme and export a ready-to-use tailwind.config.js file instantly — no login required.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Visual color palette editor",
+      "Custom font family configuration",
+      "Breakpoint & spacing scale editor",
+      "One-click config export",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free Tailwind CSS Tool",
+    titleLine1: "Generate Your",
+    titleGradient: "Tailwind Config",
+    subtitle:
+      "Customize colors, fonts, spacing, and breakpoints visually — then copy your tailwind.config.js in one click. No login required.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "🎨",
+      title: "Visual Theme Editor",
+      description:
+        "Set custom brand colors, typography, and spacing through an intuitive GUI — no hand-editing config files.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "📐",
+      title: "Breakpoints & Fonts",
+      description:
+        "Configure responsive breakpoints and font families that perfectly match your design system.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "⚡",
+      title: "Instant Export",
+      description:
+        "Copy your complete tailwind.config.js or tailwind.config.ts to clipboard in one click, ready to paste.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
+      name: "Tailwind Shades Generator",
+      url: "https://tailwind-shades-generator.tools.jagodana.com",
+      icon: "🌈",
+      description: "Generate Tailwind CSS color shade scales.",
+    },
+    {
+      name: "Tailwind Color Finder",
+      url: "https://tailwind-color-finder.tools.jagodana.com",
       icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      description: "Find the perfect Tailwind CSS color name.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "CSS Variables Generator",
+      url: "https://css-variables-generator.tools.jagodana.com",
+      icon: "🔧",
+      description: "Generate CSS custom properties for your design tokens.",
     },
     {
-      name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
-      icon: "🧪",
-      description: "Build, test & debug regular expressions in real-time.",
+      name: "Spacing Scale Generator",
+      url: "https://spacing-scale-generator.tools.jagodana.com",
+      icon: "📏",
+      description: "Generate consistent spacing scales for your CSS.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "CSS Grid Generator",
+      url: "https://css-grid-generator.tools.jagodana.com",
+      icon: "⚡",
+      description: "Visual CSS grid layout builder.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "Color Palette Generator",
+      url: "https://color-palette-generator.tools.jagodana.com",
+      icon: "🖌️",
+      description: "Generate beautiful color palettes for your projects.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Choose Tailwind Version",
+      text: "Select Tailwind CSS v3 or v4 and pick your preferred output format (JS or TS).",
+      url: "",
+    },
+    {
+      name: "Customize Colors",
+      text: "Add your brand's primary, secondary, and accent colors using the color picker.",
+      url: "",
+    },
+    {
+      name: "Configure Fonts & Breakpoints",
+      text: "Set font families (sans, serif, mono) and adjust responsive breakpoints to match your design system.",
+      url: "",
+    },
+    {
+      name: "Enable Plugins & Copy Config",
+      text: "Toggle any Tailwind plugins you need, then click 'Copy Config' to get your complete tailwind.config.js.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT2M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is a Tailwind CSS config generator?",
+      answer:
+        "A Tailwind CSS config generator is a visual tool that lets you customize Tailwind's default theme — colors, fonts, breakpoints, spacing — and outputs a complete tailwind.config.js file ready to drop into your project.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Does this work with Tailwind CSS v3 and v4?",
+      answer:
+        "Yes. The generator supports both Tailwind CSS v3 (tailwind.config.js / tailwind.config.ts format) and Tailwind CSS v4 (CSS-first configuration with @theme). Toggle between versions using the version switch at the top.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Can I add custom colors to my Tailwind config?",
+      answer:
+        "Absolutely. Use the color picker to define custom brand colors. The generator creates the correct color object format that Tailwind expects in your extend.colors section.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What Tailwind plugins can I add?",
+      answer:
+        "You can enable @tailwindcss/forms, @tailwindcss/typography, @tailwindcss/aspect-ratio, and @tailwindcss/line-clamp from the Plugins tab. The generator adds the correct require() statements to your config automatically.",
+    },
+    {
+      question: "Is the generated config 100% valid?",
+      answer:
+        "Yes. The config is generated from a structured schema and follows Tailwind's official configuration format. You can paste it directly into your project without any manual editing.",
+    },
+    {
+      question: "Do I need to create an account or pay?",
+      answer:
+        "No. This tool is completely free and runs entirely in your browser — no account, no login, and no data is ever sent to any server.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title:
+        "Tailwind CSS Config Generator — Visual tailwind.config.js Builder",
+      description:
+        "Generate a complete tailwind.config.js visually. Customize colors, fonts, spacing, breakpoints, and plugins — then copy your ready-to-use Tailwind CSS config in seconds.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
